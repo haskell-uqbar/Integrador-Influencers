@@ -5,13 +5,14 @@
 ![](influencer.jpg)
 
 ### Los influenciables 
+
 Existen personas, y de cada una se conocen varias cosas:
 * Qué temas le gusta.
-* Qué cosas le dan miedo y en qué medida (expresado numéricamente) 
+* Qué cosas le dan miedo y en qué medida (expresado numéricamente). 
 * Su estabilidad actual, representada en una escala de 0 a 100. 
 
 *Por ejemplo:*
-* *A María le gusta la mecánica, le tiene miedo a los extraterrestres en 600 y a quedarse sin trabajo en 300. Su estabilidad de 85*
+* *A María le gusta la mecánica, le tiene miedo a los extraterrestres en 600 y a quedarse sin trabajo en 300. Su estabilidad es 85.*
 * *A Juan Carlos le gusta el maquillaje y los trenes. Le tiene miedo a los insectos en 100, al coronavirus en 10 y a las vacunas en 20. Tiene una estabilidad de 50.*
 
 Implementar las funciones para poder representar las siguientes acciones: 
@@ -28,12 +29,12 @@ No se sabe si los influencers son personas, seres de otra especie o conglomerado
 * Hay uno, llamado <coloque aquí su nombre>, que podría intervenirle la televisión a María para hacerle creer que los extraterrestres están instalando una falsa pandemia. El impacto sería que se disminuya su estabilidad en 20 unidades, que tenga miedo a los extraterrestres en 100 y al coronavirus en 50.
 * Hay otro que hace que una persona le de miedo a la corrupción en 10, le pierda el miedo a convertirse en Venezuela y que agrega el gusto por escuchar.
 * El community manager de un artista es un influencer que hace que la gente se haga fan de dicho artista.
-* Está el influencer inutil, que no lograr alterar nada
-* Agregá uno a tu elección, pero que tambien realice uno o más cambios en una persona
+* Está el influencer inutil, que no lograr alterar nada.
+* Agregá uno a tu elección, pero que tambien realice uno o más cambios en una persona.
 	
 Implementar las funciones que permitan:
 
-1. Hacer una campaña de marketing básica, que dado un conjunto de personas hace que todas ellas sean influenciadas por un influencer.
+1. Hacer una campaña de marketing básica, que dado un conjunto de personas hace que todas ellas sean influenciadas por un influencer dado.
 2. Saber qué influencer es más generador de miedo: dada una lista de personas y dos influencer, saber cuál de ellos provoca que más personas se vuelvan miedosas.
 
 ### La influenciación 
@@ -41,8 +42,8 @@ Implementar las funciones que permitan:
 El objetivo principal de influenciar, sin embargo, es vender productos. De cada producto se saben dos cosas: el gusto que se necesita que tenga la persona para comprarlo y una condición adicional específica de ese producto. 
 
 Por ejemplo:
-* El desodorante Acks necesita que a la gente le guste el chocolate pero además que la estabilidad de la persona sea menor a 50
-* El llavero de plato volador necesita que a la persona le gusten los extraterrestres pero que no sea miedosa
+* El desodorante Acks necesita que a la gente le guste el chocolate pero además que la estabilidad de la persona sea menor a 50.
+* El llavero de plato volador necesita que a la persona le gusten los extraterrestres pero que no sea miedosa.
 * El pollo frito Ca Efe Se necesita que a la persona le guste lo frito y que sea fanática del pollo.
 
 1. Calcular la eficiencia de un campaña de marketing con un influencer para un producto en particular. Es el porcentaje de variación de la cantidad de gente que antes de la campaña no hubiera comprado el producto, pero luego sí. 
@@ -51,8 +52,8 @@ Por ejemplo:
 
 1. Definir los tipos de datos necesarios, declarar el tipo de cada función y agregar los datos de ejemplo que sean necesarios para hacer pruebas de las principales variantes.
 2. Analizar qué sucede en caso de utilizar una lista infinita. Mostrar formas de utilizar algunas de las funciones hechas de manera que:
-* se quede iterando infinitamente sin arrojar un resultado, 
-* se obtenga una respuesta finita  
-* la respuesta que se obtiene sea a su vez infinita.
+* Se quede iterando infinitamente sin arrojar un resultado. 
+* Se obtenga una respuesta finita.  
+* La respuesta que se obtiene sea a su vez infinita.
 3. Explicar la utilidad del concepto de aplicación parcial en la resolución realizada dando un ejemplo concreto donde se lo usó
 
